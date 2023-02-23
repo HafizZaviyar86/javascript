@@ -587,3 +587,322 @@
 // } else {
 //   console.log("Invalid time entered");
 // }
+
+
+
+
+
+
+
+
+///////////////////////////Arrays--13 to 15//////
+
+
+//-----------------chapter.13
+
+            //quistion no1//
+
+      // let studentNames = [];
+      
+      // studentNames.push("Alice");
+//////studentNames.push("Bob");
+///studentNames.push("Charlie");//
+
+
+         //quistion no2//
+
+
+
+         //const studentNames = [];
+         
+         // Using push method
+//////studentNames.push("Alice");
+////studentNames.push("Bob");
+/////studentNames.push("Charlie");
+
+// Directly accessing the index of the array
+///studentNames[3] = "David";
+
+             //quistion no3//
+
+      //   const stringsArray = ["apple", "banana", "cherry", "date"];
+  //       console.log(stringsArray[0]); // Output: "apple"
+//console.log(stringsArray[2]); // Output: "cherry"
+    
+  //    stringsArray[1] = "grapefruit";
+//console.log(stringsArray); // Output: ["apple", "grapefruit", "cherry", "date"]
+
+
+
+                //quistion no4//
+            
+//          const numbersArray = [1, 2, 3, 4, 5];
+
+///////////////console.log(numbersArray[0]); // Output: 1
+//////////////console.log(numbersArray[2]); // Output: 3
+//////////////numbersArray[1] = 10;
+/////////////console.log(numbersArray); // Output: [1, 10, 3, 4, 5]
+
+
+           //quistion no5//
+           
+//           const booleanArray = [true, false, true, false, true];
+
+         //    console.log(booleanArray[0]); // Output: true
+///////////// console.log(booleanArray[2]); // Output: true
+///////////booleanArray[1] = true;
+//////////console.log(booleanArray); // Output: [true, true, true, false, true]
+
+
+           //quistion no6//
+       
+//           const mixedArray = [1, "apple", true, 2.5, false, "banana"];
+//           console.log(mixedArray[0]); // Output: 1
+//           console.log(mixedArray[2]); // Output: true
+
+//           mixedArray[1] = "orange";
+//          console.log(mixedArray); // Output: [1, "orange", true, 2.5, false, "banana"]
+
+
+                //quistion no7//
+
+ //  const educationQualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+//document.write("<h1>Educational Qualifications in Pakistan:</h1>");
+//document.write("<ul>");
+
+//for (let i = 0; i < educationQualifications.length; i++) {
+  //document.write("<li>" + educationQualifications[i] + "</li>");
+//}
+
+//document.write("</ul>");
+ 
+      
+               //quistion no8//
+
+      //         const studentNames = ["John", "Sarah", "Michael"];
+      //         const studentScores = [420, 380, 440];
+         //      const totalMarks = 500;
+               
+       //        for (let i = 0; i < studentNames.length; i++) {
+      //           const name = studentNames[i];
+      //           const score = studentScores[i];
+     //            const percentage = (score / totalMarks) * 100;
+                 
+   //              document.write("<h2>Student #" + (i+1) + "</h2>");
+   //              document.write("<p>Name: " + name + "</p>");
+    //             document.write("<p>Score: " + score + "</p>");
+  //               document.write("<p>Percentage: " + percentage.toFixed(2) + "%</p>");
+//               }
+                           
+
+
+            //quistion no9//
+
+   // Initialize an array with color names
+//let colors = ["red", "green", "blue", "yellow", "purple"];
+
+// Display the array elements in the browser
+//document.write("<p>Original Array: " + colors.join(", ") + "</p>");
+
+// Ask the user what color he/she wants to add to the beginning
+//let colorToAddToBeginning = prompt("Enter a color to add to the beginning of the array:");
+
+// Add the color to the beginning of the array
+//colors.unshift(colorToAddToBeginning);
+
+// Display the updated array in the browser
+//document.write("<p>After adding color to beginning: " + colors.join(", ") + "</p>");
+
+// Ask the user what color he/she wants to add to the end
+//let colorToAddToEnd = prompt("Enter a color to add to the end of the array:");
+
+// Add the color to the end of the array
+//colors.push(colorToAddToEnd);
+
+// Display the updated array in the browser
+//document.write("<p>After adding color to end: " + colors.join(", ") + "</p>");
+
+// Add two more colors to the beginning of the array
+//colors.unshift("brown", "pink");
+
+// Display the updated array in the browser
+//document.write("<p>After adding two colors to beginning: " + colors.join(", ") + "</p>");
+
+// Delete the first color in the array
+//colors.shift();
+
+// Display the updated array in the browser
+//document.write("<p>After deleting first color: " + colors.join(", ") + "</p>");
+
+// Delete the last color in the array
+//colors.pop();
+
+// Display the updated array in the browser
+//document.write("<p>After deleting last color: " + colors.join(", ") + "</p>");
+
+// Ask the user at which index he/she wants to add a color & color name
+//let indexToAddColor = prompt("Enter the index where you want to add a color:");
+//let colorToAdd = prompt("Enter the color you want to add:");
+
+// Add the color to the desired position/index
+//colors.splice(indexToAddColor, 0, colorToAdd);
+
+// Display the updated array in the browser
+//document.write("<p>After adding color at index " + indexToAddColor + ": " + colors.join(", ") + "</p>");
+
+// Ask the user at which index he/she wants to delete color(s) & how many colors he/she wants to delete
+//let indexToDeleteColor = prompt("Enter the index where you want to delete color(s):");
+//let numberOfColorsToDelete = prompt("Enter the number of colors you want to delete:");
+
+// Remove the same number of color(s) from the user-defined position/index
+//colors.splice(indexToDeleteColor, numberOfColorsToDelete);
+
+// Display the updated array in the browser
+//document.write("<p>After deleting " + numberOfColorsToDelete + " color(s) from index " + indexToDeleteColor + ": " + colors.join(", ") + "</p>");
+         
+//Original Array: red, green, blue,
+
+               //quistion no10//
+
+               // Define the student scores array
+//let studentScores = [86, 78, 94, 91, 82, 88, 75, 89, 97, 81];
+
+// Sort the array in ascending order
+//studentScores.sort(function(a, b) {
+  //return a - b;
+//});
+
+// Display the sorted array in the console
+//console.log(studentScores);
+               
+               //quistion no11//
+
+        // Initialize the cities array
+//let cities = ['Karachi', 'Lahore', 'Islamabad', 'Peshawar', 'Quetta', 'Faisalabad'];
+
+// Initialize an empty array to store selected cities
+//let selectedCities = [];
+
+// Copy 3 elements from cities array to selectedCities array
+//selectedCities = cities.slice(1, 4);
+
+// Display the selected cities array in the console
+//console.log(selectedCities);
+       
+           //quistion no12//
+
+           // Define the array
+//var arr = ["This ", " is ", " my ", " cat"];
+
+// Use the join method to create a single string
+//var str = arr.join("");
+
+// Display the string in the console
+//console.log(str);
+
+          //quistion no13//
+
+     // Initialize an empty array
+//let queue = [];
+
+// Add values to the end of the array using push()
+//queue.push("apple");
+//queue.push("banana");
+//queue.push("orange");
+
+// Remove the first value from the beginning of the array using shift()
+//let first = queue.shift();
+
+// Display the first value
+//console.log(first); // Output: "apple"
+
+// Remove the next value from the beginning of the array using shift()
+//let second = queue.shift();
+
+// Display the second value
+//console.log(second); // Output: "banana"
+
+// Display the remaining values in the array
+//console.log(queue); // Output: ["orange"]
+//apple
+//banana
+//["orange"]
+
+
+
+         //quistion no14//
+
+
+         // Define an array of phone manufacturers
+//let manufacturers = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+
+// Write the select menu to the document
+//document.write("<select>");
+
+// Loop through the manufacturers array and write each option to the select menu
+//for (let i = 0; i < manufacturers.length; i++) {
+ // document.write("<option value='" + manufacturers[i] + "'>" + manufacturers[i] + "</option>");
+//}
+
+// Close the select menu
+//document.write("</select>");
+
+                 //chaptetr:14//
+                
+                 //question=1//
+
+    // Declare and initialize an empty 3-dimensional array
+//let multiArray = [[[[],[],[]],[[],[],[]]], [[[],[],[]],[[],[],[]]], [[[],[],[]],[[],[],[]]], [[[],[],[]],[[],[],[]]]];
+
+// Or using a loop to create the inner arrays:
+//let multiArray = [];
+//for (let i = 0; i < 2; i++) {
+//  multiArray[i] = [];
+//  for (let j = 0; j < 3; j++) {
+ //   multiArray[i][j] = [];
+ //   for (let k = 0; k < 4; k++) {
+   //   multiArray[i][j][k] = 0;
+ //   }
+  //}
+//}
+ 
+
+                  //question=2//
+
+                  ///1  2  3
+                  //4  5  6
+                  //7  8  9
+
+
+         // Declare and initialize a 2-dimensional array representing the matrix
+///////////let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+         
+                 //question=3//
+                 
+    //             for (let i = 1; i <= 10; i++) {
+  //                console.log(i);
+//                }
+                     
+                   //question=4//
+
+// take input from the user
+//const tableNum = parseInt(prompt("Enter the table number:"));
+//const tableLen = parseInt(prompt("Enter the length of the table:"));
+
+// print the multiplication table
+//for (let i = 1; i <= tableLen; i++) {
+ // const result = tableNum * i;
+  //console.log(`${tableNum} x ${i} = ${result}`);
+//}
+
+               //question=5//
+
+  //             var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+//for (var i = 0; i < fruits.length; i++) {
+  //console.log(fruits[i]);
+//}
+
+
+
